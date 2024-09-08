@@ -1,0 +1,120 @@
+/* General Body Styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 194, 194);
+    color: #333;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow-x: hidden;
+    
+  }
+  
+  /* Header Styling */
+  header {
+    background: #333;
+    color: #ab6767;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    float: left;
+    margin: 0;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+  
+  .bg-grey {
+    background-color: #eaeaea;
+  }
+  
+  /* Skills List */
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  /* Project Styling */
+  .project {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    max-width: 150px;
+    margin: 20px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    header h1,
+    header nav {
+      float: none;
+      text-align: center;
+    }
+  
+    header nav ul {
+      padding-top: 20px;
+    }
+  }
